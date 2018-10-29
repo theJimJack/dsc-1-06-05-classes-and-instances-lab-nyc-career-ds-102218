@@ -1,0 +1,26 @@
+Jeff's review:
+
+  1. create an object with setters and getters, use properties set and retrieve properties.
+
+  class Driver():
+
+      def get_driver_first(self):
+          return self._first
+
+      def set_driver_first(self, first):
+          self._first = first
+
+      def del_driver_first(self):
+          del self._first
+
+      first = property(get_driver_first, set_driver_first, del_driver_first)
+
+  2. Explain self
+      Starts as a ghost
+      Draws consistency between all of a class's functions
+  3. explain __init__
+      Set parameters
+      parameters that are necessary for the class
+
+  4. What are the benefits of objects?
+      provides a blueprint that can be modified as needed, but the initial structure remains

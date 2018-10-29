@@ -1,0 +1,40 @@
+NB --> Jeff has a good set of notes for this, pull down
+
+Intro to Objects
+--Specific characteristics that can be defined (i.e. a blueprint)
+--create classes, and classes contruct/initialize/instantiate objects
+--Objects (i.e. Class) allow for code to be broken out into smaller chunks/promotes smaller functions or code
+--
+
+
+I. Why Objects
+II. Creating objects
+III. Object method chain
+IV.
+
+
+
+
+#objects -- combination of data and functions, behavior
+
+def make_noise(animal):
+  print('hi my name is ')+animal['name']
+
+billy = {'name':'billy','age':8,'species':'person'}
+sally = {'name':'sally','age':8,'species':'person'}
+
+
+-------How to objects work?-------
+# think of as a blueprint or factory
+# class
+    #factory
+        # OOP in python -- consists of classes and cinstances of those classes
+          # Where classes allow us to construct instances of a data type
+#instances of that class
+  #share methods
+
+objects are a dictionaries that can also hold methods
+a class object can also be given unique attributes (i.e. outside of the pre-defined class)
+
+class Dog:
+  pass
